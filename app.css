@@ -1,0 +1,70 @@
+#home{ 
+    font-family:comforta;
+    font-size: 2rem;;
+    
+  color:rgba(145, 131, 131, 0.904);
+  
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+/* nav{ 
+    background-color: black;
+} */
+nav a,nav div div a{
+    color:white !important;
+}
+#logoimage{
+    
+    height:32px;
+}
+/* #iconn{
+    background-color:rgba(223, 220, 226, 0.829);
+} */
+.nav-link:hover{
+    color:red !important;
+    
+} 
+
+.nav-link:active{
+    color: #0c3197 !important;
+    
+} 
+
+
+
+
+
+body,html{
+    background-color:#161616; 
+    scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(300px);
+  scroll-snap-type: y mandatory;
+}
+#imgg{
+    width:100%;
+    height:100%;
+}
+.first1{
+    color:rgb(211, 19, 19);
+}
+
+#section2about{
+    color:rgba(145, 131, 131, 0.904);
+}
+
+
+
+#section2h1{
+    color:tomato;
+}
+.imglogo{
+    width:40px;
+    height:40px;
+    transition: width 2s;
+}
+.social:hover{
+    transform: scale(0.9);
+}
